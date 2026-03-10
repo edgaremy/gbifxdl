@@ -214,18 +214,6 @@ The scripts above are used in practice in the [usecases folder](https://github.c
 
 For more detailed examples, look at the [examples folder](https://github.com/GuillaumeMougeot/gbifxdl/tree/main/examples).
 
-## Contributing
-
-This repo welcomes external contributions!
-
-If you find an issue, feel free to open it [here](https://github.com/GuillaumeMougeot/gbifxdl/issues).
-
-If you would like to contribute to the code, feel free to send a pull request. Currently, most of the code of this package is stored in a single script in `gbifxdl/src/gbifxdl.py`.
-
-For any other request, don't hesitate to reach out by sending me an email.
-
-Many thanks to anyone interested by this work.
-
 ## Advanced Features
 
 ### OCR Text Detection
@@ -319,7 +307,7 @@ This ensures you get exactly the desired number of images per species, accountin
 
 ### Incremental Downloads (Skip Existing Images)
 
-Resume interrupted downloads or update datasets without re-downloading existing images (currently, this resuming feature is not compatible with YOLO detection and OCR filtering):
+Resume interrupted downloads or update datasets without re-downloading existing images (_WARNING: currently, this resuming feature is not compatible with YOLO detection and OCR filtering_):
 
 ```python
 from gbifxdl import AsyncImagePipeline
@@ -337,6 +325,18 @@ This is useful for:
 - Avoiding bandwidth waste when re-running the pipeline
 
 Existing images are validated to ensure they're not corrupted - corrupted files are automatically re-downloaded.
+
+## Contributing
+
+This repo welcomes external contributions!
+
+If you find an issue, feel free to open it [here](https://github.com/GuillaumeMougeot/gbifxdl/issues).
+
+If you would like to contribute to the code, feel free to send a pull request. Currently, most of the code of this package is stored in a single script in `gbifxdl/src/gbifxdl.py`.
+
+For any other request, don't hesitate to reach out by sending me an email.
+
+Many thanks to anyone interested by this work.
 
 ## TODO
 
