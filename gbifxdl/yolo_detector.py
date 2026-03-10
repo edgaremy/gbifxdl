@@ -1,9 +1,7 @@
-"""
-YOLO Object Detection Module for GBIFXDL
+# YOLO Object Detection Module for GBIFXDL
+# This module provides object detection and cropping capabilities for biological
+# specimen images using YOLO models from Ultralytics.
 
-This module provides object detection and cropping capabilities for biological
-specimen images using YOLO models from Ultralytics.
-"""
 
 import logging
 from pathlib import Path

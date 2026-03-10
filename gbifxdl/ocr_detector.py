@@ -1,10 +1,7 @@
-"""
-OCR Text Detection Module for GBIFXDL
-
-This module provides text detection capabilities to identify and optionally
-filter out images containing text (labels, barcodes, etc.) from biological
-specimen images.
-"""
+# OCR Text Detection Module for GBIFXDL
+# This module provides text detection capabilities to identify and optionally
+# filter out images containing text (labels, barcodes, etc.) from biological
+# specimen images.
 
 import logging
 from pathlib import Path

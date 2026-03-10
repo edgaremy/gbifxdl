@@ -319,7 +319,7 @@ This ensures you get exactly the desired number of images per species, accountin
 
 ### Incremental Downloads (Skip Existing Images)
 
-Resume interrupted downloads or update datasets without re-downloading existing images:
+Resume interrupted downloads or update datasets without re-downloading existing images (currently, this resuming feature is not compatible with YOLO detection and OCR filtering):
 
 ```python
 from gbifxdl import AsyncImagePipeline

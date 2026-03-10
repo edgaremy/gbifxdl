@@ -1,9 +1,6 @@
-"""
-Post-processing script for applying OCR and YOLO detection to already downloaded images.
-
-This script can be used to apply OCR text detection and/or YOLO object detection
-to images that have already been downloaded, without needing to re-download them.
-"""
+# Post-processing script for applying OCR and YOLO detection to already downloaded images.
+# This script can be used to apply OCR text detection and/or YOLO object detection
+# to images that have already been downloaded, without needing to re-download them.
 
 import argparse
 import logging
